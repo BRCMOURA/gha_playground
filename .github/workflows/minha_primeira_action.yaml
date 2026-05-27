@@ -17,6 +17,11 @@ jobs:
 
     steps:
       - run: echo "Hoje é $(date)."
+      - run: ls -la
+
+      - uses: actions/checkout@v6
+
+      - run: ls -la
   
   
   
