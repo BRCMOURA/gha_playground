@@ -23,6 +23,7 @@ jobs:
         run: |
           echo "Este job foi executado automaticamente por um evento."
           echo "job está rodando em um servidor hospedado pelo GitHub!"
+          echo "${{ inputs.teste }}"
 
   segundo-job:
     runs-on: ubuntu-latest
