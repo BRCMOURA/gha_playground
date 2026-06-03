@@ -11,6 +11,7 @@ on:
         descrition: Meu primeiro input
         required: True
         type: string
+        default: texto padrão
 
 
 
